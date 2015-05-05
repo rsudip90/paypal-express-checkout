@@ -11,3 +11,6 @@ In Console, it will ask to visit the url, please open that link and done. You ca
 at console.
 
 Read more at: https://developer.paypal.com/docs/classic/express-checkout/integration-guide/ECGettingStarted/#idbec8c969-cd47-4d23-bb4b-18a5e0c1fd17
+
+Dependencies:
+1. Python requests module (https://pypi.python.org/pypi/requests)
