@@ -40,7 +40,7 @@ class PayPalExpressCheckout(object):
 	def set_express_checkout(self):
 		params = {
 			'METHOD': 'SetExpressCheckout',
-			'PAYMENTREQUEST_0_PAYMENTACTION': 'Sale',
+			'PAYMENTREQUEST_0_PAYMENTACTION': 'Authorization',
 			'PAYMENTREQUEST_0_AMT': 100,
 			'PAYMENTREQUEST_0_CURRENCYCODE': 'USD',
 			'CANCELURL': CANCEL_URL,
